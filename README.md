@@ -20,18 +20,32 @@ Elaborado por Francico Foz
 
 Olá! 
 
-Neste repositório você encontrará o meu projeto final do Bootcamp Data Science 2021-22 da [Alura](https://www.alura.com.br/).
+Neste repositório você encontrará o meu projeto do módulo extra do Bootcamp Data Science 2021-22 da [Alura](https://www.alura.com.br/).
 
-Durante todo o Bootcamp tive a oportunidade de mergulhar no oceano da Ciência de Dados a partir de dados reais da área da saúde em 6 módulos.
+Durante todo o Bootcamp tive a oportunidade de mergulhar no oceano da Ciência de Dados a partir de dados reais da área da saúde em 5 módulos e este módulo aplicado a finanças.
 
 
 ## Projeto
 
+###  Objetivo
+
+Desenvolver uma aplicação, com um modelo de machine learning por detrás, que possibilite a avaliação da aprovação de crédito pelo banco fictício "Bytebank".
+
 ### Contexto
 
-Devido a pandemia de COVID-19, os hospitais ficaram sobrecarregados faltando recursos de saúde como leitos de UTI, profissionais entre outros. 
+O processo de pedido de crédito se desenvolve nas seguintes etapas:
+* Solicitação do cliente ao banco (preenchimento de informações).
+* Processamento do modelo de decisão de aprovação (machine learning)
+* Envio da aprovação ou negação do pedido.
 
-Há a necessidade de prever a quantidade necessária de recursos, principalmente de leitos de UTI. 
-Para isso foram utilizados dados clínicos individuais de pacientes afim de se estabelecer um modelo e conseguir otimizar a necessidade real da permissão de entrada.
+Para isso será realizado o desenvolvimento do modelo de machine learning a partir de dados históricos fornecidos pelo banco.
+Serão realizadas as seguintes etapas:
 
-Foram utilizados os dados disponibilizados pelo Hospital Sírio-Libanês no [Kaggle](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19) .
+* Limpeza e manipulação dos dados.
+* Análise exploratória
+* Treino e teste de algoritmos de classificação.
+* Arquivamento do modelo.
+
+Para a criação da aplicação, será utilizado a biblioteca ??
+
+Foram utilizados os dados disponibilizados pelo curso no qual estão na pasta "Dados_fornecidos" deste repositório.
