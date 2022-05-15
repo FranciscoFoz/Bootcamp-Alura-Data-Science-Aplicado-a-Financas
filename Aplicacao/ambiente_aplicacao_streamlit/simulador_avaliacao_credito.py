@@ -5,8 +5,8 @@ from utils import Transformador
 
 
 def avaliar_mau(dict_respostas):
-    modelo = load('/home/franciscofoz/Documentos/GitHub/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/Objetos/Credit_scoring_RandomForest_preditor.joblib')
-    features = load('/home/franciscofoz/Documentos/GitHub/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/Objetos/features.joblib')
+    modelo = load('https://github.com/FranciscoFoz/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/raw/main/Objetos/Credit_scoring_RandomForest_preditor.joblib')
+    features = load('https://github.com/FranciscoFoz/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/raw/main/Objetos/features.joblib')
 
     if dict_respostas['Anos_desempregado'] > 0:
         dict_respostas['Anos_empregado'] = dict_respostas['Anos_desempregado'] * -1
@@ -33,7 +33,7 @@ my_expander_familia = st.beta_expander('Familia')
 
 
 dict_respostas = {}
-lista_campos = load('/home/franciscofoz/Documentos/GitHub/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/Objetos/lista_campos.joblib')
+lista_campos = load('https://github.com/FranciscoFoz/Bootcamp-Alura-Data-Science-Aplicado-a-Financas/raw/main/Objetos/lista_campos.joblib')
 
 with my_expander_trabalho:
     col1_form, col2_form = st.beta_columns(2)
