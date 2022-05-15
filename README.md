@@ -62,3 +62,5 @@ O projeto foi desenvolvido em 3 partes:
 ## Projeto final
 
 Você pode conferir o resultado o projeto final neste [link](https://share.streamlit.io/franciscofoz/bootcamp-alura-data-science-aplicado-a-financas/main/Aplicacao/simulador_avalicacao_credito.py) com a aplicação em funcionamento.
+
+
