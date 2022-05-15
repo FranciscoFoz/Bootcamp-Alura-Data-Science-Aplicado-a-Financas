@@ -3,9 +3,6 @@ from joblib import load
 import pandas as pd
 from utils import Transformador
 
-#Cor de fundo do listbox
-st.markdown('<style>div[role="listbox"] ul{background-color: #eee1f79e};</style>', unsafe_allow_html=True)
-
 
 def avaliar_mau(dict_respostas):    
     modelo = load('Objetos/Credit_scoring_RandomForest_preditor.joblib')
