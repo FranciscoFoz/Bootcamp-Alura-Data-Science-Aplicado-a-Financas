@@ -1,5 +1,3 @@
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
 # Bootcamp Data Science Alura 2021-22 
 # Data Science Aplicado a Financas
 
@@ -24,7 +22,7 @@ Olá!
 
 Neste repositório você encontrará o meu projeto do módulo extra do Bootcamp Data Science 2021-22 da [Alura](https://www.alura.com.br/).
 
-Durante todo o Bootcamp tive a oportunidade de mergulhar no oceano da Ciência de Dados a partir de dados reais da área da saúde em 5 módulos e este módulo aplicado a finanças.
+Durante todo o Bootcamp tive a oportunidade de mergulhar no oceano da Ciência de Dados a partir de dados reais da área da saúde em 5 módulos e este módulo extra aplicado a finanças.
 
 
 ## Projeto
@@ -48,6 +46,19 @@ Serão realizadas as seguintes etapas:
 * Treino e teste de algoritmos de classificação.
 * Arquivamento do modelo.
 
-Para a criação da aplicação, será utilizado a biblioteca ??
+Para a criação da aplicação, será utilizado a biblioteca Streamlit.
 
 Foram utilizados os dados disponibilizados pelo curso no qual estão na pasta "Dados_fornecidos" deste repositório.
+
+## Desenvolvimento do projeto
+
+O projeto foi desenvolvido em 3 partes:
+
+* Limpeza, transformação e análise exploratória de dados (1º Notebook)
+* Desenvolvimento do modelo de machine learning. (2º Notebook)
+* Criação da aplicação 
+
+
+## Projeto final
+
+Você pode conferir o resultado o projeto final neste [link](https://share.streamlit.io/franciscofoz/bootcamp-alura-data-science-aplicado-a-financas/main/Aplicacao/simulador_avalicacao_credito.py) com a aplicação em funcionamento.
