@@ -297,8 +297,8 @@ def roda_modelo(modelo, dados,SEED):
     plt.plot(tfp,tvp)
     plt.plot([0, 1], ls="--", c = 'red')                                                   # Plotando linha para uma curva ROC a 
     plt.plot([0, 0], [1, 0], ls="--", c = 'green'), plt.plot([1, 1], ls="--", c = 'green') # Plotando linha para a curva ROC perfeita
-    plt.ylabel('Revocação')
-    plt.xlabel('Precisão')
+    plt.ylabel('Sensibilidade')
+    plt.xlabel('Especificidade')
     plt.show()
     # Separando a probabilidade de ser bom e mau, e calculando o KS
     print(100*'-')
