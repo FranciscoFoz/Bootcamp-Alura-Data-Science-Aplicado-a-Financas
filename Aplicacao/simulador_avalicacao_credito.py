@@ -4,10 +4,6 @@ import pandas as pd
 from utils import Transformador
 
 
-#Cor de fundo do listbox
-st.markdown('<style>div[role="listbox"] ul{background-color: #36A138};</style>', unsafe_allow_html=True)
-
-
 def avaliar_mau(dict_respostas):    
     modelo = load('Objetos/Credit_scoring_RandomForest_preditor.joblib')
     features = load('Objetos/features.joblib')
